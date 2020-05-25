@@ -1,5 +1,6 @@
 # TimeServer
 
+# Study project
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -48,3 +49,6 @@ Run it
  UdpTimeServer.exe
 ```
 
+# Студент
+Анисимов Андрей Александрович 
+группа МО-201 / МЕН-282201
