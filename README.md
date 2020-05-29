@@ -1,5 +1,6 @@
 # TimeServer
 
+# Study project
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -30,7 +31,9 @@ That's an amazing app
 ### Building and Staring
 
 Desirable to have [Net.Core](https://dotnet.microsoft.com/download/dotnet-core/3.1) v3.1+ .
+
 On CMD
+
 Build an appliction in UdpTimeServer with.
 
 ```cmd
@@ -48,3 +51,7 @@ Run it
  UdpTimeServer.exe
 ```
 
+# Студент
+Анисимов Андрей Александрович 
+
+группа МО-201 / МЕН-282201
