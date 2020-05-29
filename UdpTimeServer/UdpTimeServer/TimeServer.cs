@@ -38,7 +38,7 @@ namespace UdpTimeServer
                 }
                 catch
                 {
-                    //Лень фиксить, попадаем сюда при диспозе
+
                 }
             }
         }
@@ -51,9 +51,9 @@ namespace UdpTimeServer
 
         private string GetDateWithDelay()
         {
-            var dateTime = DateTime.Now.Add(new TimeSpan(0, 0, 0, 0, Delay));
+            var dateTime = DateTime.Now.Add(new TimeSpan(0, 0, 0, Delay));
             return
-                $"Time is {dateTime.Hour}:{dateTime.Minute}:{dateTime.Second}:{dateTime.Millisecond} Date is {dateTime.Day}.{dateTime.Month}.{dateTime.Year}";
+                $"Time is {dateTime.Hour}:{dateTime.Minute}:{dateTime.Second} Date is {dateTime.Day}.{dateTime.Month}.{dateTime.Year}";
         }
     }
 }
